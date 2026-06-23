@@ -4,6 +4,9 @@ A small slice of an "announcements" product for a restaurant: write a message, p
 company's own branding, choose the opted-in audience, and send. **Sends are idempotent** —
 triggering the same send twice delivers to each recipient *at most once*.
 
+**Live demo:** https://compose-send-announcement.onrender.com
+*(free tier — the first load can take ~30–50s while the instance wakes)*
+
 ```bash
 npm install
 npm run dev      # starts the API (:3001) and the web app (:5173) together — open the Vite URL
