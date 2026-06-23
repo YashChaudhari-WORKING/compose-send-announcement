@@ -1,0 +1,20 @@
+# Render Blueprint — deploy as a single web service (free tier).
+#
+# A single instance is intentional: one process = one shared SQLite connection, which is what keeps
+# the idempotency guarantee correct. (Serverless / multi-instance would split the SQLite file across
+# instances and could double-send — so this app is deliberately NOT deployed that way.)
+#
+# Deploy: push to GitHub, then in Render → "New +" → "Blueprint" → pick this repo.
+services:
+  - type: web
+    name: compose-send-announcement
+    runtime: node
+    plan: free
+    # --include=dev so Vite/Tailwind (build-time tools) install even if NODE_ENV=production.
+    buildCommand: npm install --include=dev && npm run build
+    startCommand: npm start
+    envVars:
+      # Pin Node 22 (LTS). better-sqlite3 ships prebuilt binaries for it, so no native compile.
+      # (Without this, Render picks the newest Node, which has no prebuilt and fails to build.)
+      - key: NODE_VERSION
+        value: 22.12.0

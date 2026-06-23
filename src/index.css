@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+/* Map the fixture's brand fonts to Tailwind's font utilities. Heading = Source Serif (the fixture's
+   font_heading), body = Inter (font_body). Both are loaded in index.html. */
+@theme {
+  --font-sans: "Inter", system-ui, sans-serif;
+  --font-serif: "Source Serif 4", Georgia, serif;
+}
+
+html {
+  /* A warm off-white that suits a Roman trattoria, without competing with the branded preview. */
+  background-color: #faf7f2;
+}
+
+body {
+  @apply font-sans text-stone-800 antialiased;
+}
+
+/* Subtle, consistent focus ring for inputs/buttons. */
+*:focus-visible {
+  outline: 2px solid #44403c;
+  outline-offset: 1px;
+}

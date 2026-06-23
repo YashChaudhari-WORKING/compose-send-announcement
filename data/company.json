@@ -1,0 +1,390 @@
+{
+  "company": {
+    "id": "cmp_8f3a92",
+    "name": "Trattoria Da Lucia",
+    "tagline": "Cucina Romana, since 1998",
+    "type": "restaurant",
+    "cuisine": [
+      "Italian",
+      "Roman",
+      "Mediterranean"
+    ],
+    "price_range": "EUR EUR",
+    "founded_year": 1998,
+    "story": {
+      "en": "Da Lucia opened in 1998 when Lucia Ferretti left Trastevere for Brussels with her mother's recipe box and a second-hand pasta roller. What began as twelve covers in a narrow room on Rue des Bouchers is now a neighbourhood institution, still run by the Ferretti family, still rolling pasta by hand every morning.",
+      "fr": "Da Lucia a ouvert en 1998, quand Lucia Ferretti a quitte le Trastevere pour Bruxelles avec le carnet de recettes de sa mere et un laminoir d'occasion. Ce qui a commence par douze couverts dans une salle etroite de la rue des Bouchers est aujourd'hui une institution de quartier, toujours tenue par la famille Ferretti.",
+      "nl": "Da Lucia opende in 1998, toen Lucia Ferretti Trastevere verruilde voor Brussel met het receptenboek van haar moeder en een tweedehands pastamachine. Wat begon als twaalf couverts in een smalle zaal aan de Beenhouwersstraat is nu een buurtinstituut, nog steeds gerund door de familie Ferretti."
+    },
+    "milestones": [
+      {
+        "year": 1998,
+        "label": "Opened on Rue des Bouchers with 12 covers."
+      },
+      {
+        "year": 2004,
+        "label": "Expanded into the neighbouring unit; added the back terrace."
+      },
+      {
+        "year": 2011,
+        "label": "Awarded a Bib Gourmand mention."
+      },
+      {
+        "year": 2019,
+        "label": "Second generation, Matteo Ferretti, takes over the kitchen."
+      },
+      {
+        "year": 2023,
+        "label": "25th anniversary; launched the Sunday jazz lunches."
+      }
+    ],
+    "locale_default": "en-GB",
+    "locales_supported": [
+      "en-GB",
+      "fr-BE",
+      "nl-BE"
+    ],
+    "timezone": "Europe/Brussels",
+    "currency": "EUR",
+    "contact": {
+      "email": "ciao@dalucia.example",
+      "phone": "+32 2 555 0173",
+      "address": {
+        "street": "Rue des Bouchers 42",
+        "city": "Brussels",
+        "postcode": "1000",
+        "country": "BE",
+        "lat": 50.8476,
+        "lng": 4.3534
+      }
+    },
+    "branding": {
+      "logo_url": "https://placehold.co/240x240/7A1F1F/E8D9B5?text=Da+Lucia",
+      "logo_wordmark_url": "https://placehold.co/480x160/7A1F1F/E8D9B5?text=Trattoria+Da+Lucia",
+      "hero_image_url": "https://placehold.co/1200x600/7A1F1F/E8D9B5?text=Da+Lucia",
+      "primary_color": "#7A1F1F",
+      "secondary_color": "#E8D9B5",
+      "accent_color": "#2F5233",
+      "font_heading": "Source Serif Pro",
+      "font_body": "Inter"
+    },
+    "hours": [
+      {
+        "day": "mon",
+        "closed": true
+      },
+      {
+        "day": "tue",
+        "open": "12:00",
+        "close": "14:30",
+        "open2": "18:30",
+        "close2": "22:30"
+      },
+      {
+        "day": "wed",
+        "open": "12:00",
+        "close": "14:30",
+        "open2": "18:30",
+        "close2": "22:30"
+      },
+      {
+        "day": "thu",
+        "open": "12:00",
+        "close": "14:30",
+        "open2": "18:30",
+        "close2": "22:30"
+      },
+      {
+        "day": "fri",
+        "open": "12:00",
+        "close": "14:30",
+        "open2": "18:30",
+        "close2": "23:30"
+      },
+      {
+        "day": "sat",
+        "open": "18:30",
+        "close": "23:30"
+      },
+      {
+        "day": "sun",
+        "open": "12:00",
+        "close": "15:00"
+      }
+    ],
+    "channels": {
+      "website": "https://dalucia.example",
+      "instagram": "@trattoriadalucia",
+      "facebook": "trattoriadalucia",
+      "google_maps": "https://maps.example/dalucia"
+    }
+  },
+  "team": [
+    {
+      "id": "tm_01",
+      "name": "Lucia Ferretti",
+      "role": "Founder",
+      "bio": "Opened Da Lucia in 1998. Still greets regulars by name.",
+      "photo_url": "https://placehold.co/400x400/2F5233/E8D9B5?text=Lucia"
+    },
+    {
+      "id": "tm_02",
+      "name": "Matteo Ferretti",
+      "role": "Head Chef",
+      "bio": "Second generation. Trained in Rome and Modena before taking over the kitchen in 2019.",
+      "photo_url": "https://placehold.co/400x400/2F5233/E8D9B5?text=Matteo"
+    },
+    {
+      "id": "tm_03",
+      "name": "Sofia Renard",
+      "role": "Maitre d'",
+      "bio": "Runs the room and the wine list.",
+      "photo_url": "https://placehold.co/400x400/2F5233/E8D9B5?text=Sofia"
+    },
+    {
+      "id": "tm_04",
+      "name": "Karim Belkacem",
+      "role": "Sous Chef",
+      "bio": null,
+      "photo_url": null
+    }
+  ],
+  "gallery": [
+    {
+      "id": "g_01",
+      "caption": "The dining room",
+      "image_url": "https://placehold.co/800x600/7A1F1F/E8D9B5?text=Dining+Room"
+    },
+    {
+      "id": "g_02",
+      "caption": "Fresh tonnarelli",
+      "image_url": "https://placehold.co/800x600/2F5233/E8D9B5?text=Pasta"
+    },
+    {
+      "id": "g_03",
+      "caption": "The back terrace in summer",
+      "image_url": "https://placehold.co/800x600/7A1F1F/E8D9B5?text=Terrace"
+    },
+    {
+      "id": "g_04",
+      "caption": null,
+      "image_url": "https://placehold.co/800x600/2F5233/E8D9B5?text=Kitchen"
+    },
+    {
+      "id": "g_05",
+      "caption": "Sunday jazz",
+      "image_url": "https://placehold.co/800x600/7A1F1F/E8D9B5?text=Jazz"
+    }
+  ],
+  "menu": [
+    {
+      "id": "p_01",
+      "name": "Antipasto della casa",
+      "price": 14.0,
+      "category": "Antipasti",
+      "available": true,
+      "vegetarian": true,
+      "image_url": "https://placehold.co/600x400/2F5233/E8D9B5?text=Antipasto"
+    },
+    {
+      "id": "p_02",
+      "name": "Cacio e Pepe",
+      "price": 16.5,
+      "category": "Primi",
+      "available": true,
+      "vegetarian": true,
+      "image_url": "https://placehold.co/600x400/2F5233/E8D9B5?text=Cacio+e+Pepe"
+    },
+    {
+      "id": "p_03",
+      "name": "Bucatini all'Amatriciana",
+      "price": 17.0,
+      "category": "Primi",
+      "available": true,
+      "vegetarian": false,
+      "image_url": "https://placehold.co/600x400/2F5233/E8D9B5?text=Bucatini"
+    },
+    {
+      "id": "p_04",
+      "name": "Saltimbocca alla Romana",
+      "price": 24.0,
+      "category": "Secondi",
+      "available": true,
+      "vegetarian": false,
+      "image_url": "https://placehold.co/600x400/2F5233/E8D9B5?text=Saltimbocca"
+    },
+    {
+      "id": "p_05",
+      "name": "Carciofi alla Giudia",
+      "price": 12.0,
+      "category": "Contorni",
+      "available": true,
+      "vegetarian": true,
+      "image_url": "https://placehold.co/600x400/2F5233/E8D9B5?text=Carciofi"
+    },
+    {
+      "id": "p_06",
+      "name": "Tiramisu della casa",
+      "price": 9.0,
+      "category": "Dolci",
+      "available": false,
+      "vegetarian": true,
+      "image_url": "https://placehold.co/600x400/2F5233/E8D9B5?text=Tiramisu"
+    }
+  ],
+  "reviews": [
+    {
+      "id": "rv_01",
+      "author": "Marie D.",
+      "rating": 5,
+      "source": "Google",
+      "text": "The cacio e pepe is the best in Brussels. Full stop.",
+      "date": "2026-05-20"
+    },
+    {
+      "id": "rv_02",
+      "author": "Anonymous",
+      "rating": 4,
+      "source": "TheFork",
+      "text": "Lovely room, a little loud on weekends.",
+      "date": "2026-04-02"
+    },
+    {
+      "id": "rv_03",
+      "author": "Jan V.",
+      "rating": 5,
+      "source": "Google",
+      "text": null,
+      "date": "2026-03-11"
+    }
+  ],
+  "contacts": [
+    {
+      "id": "c_001",
+      "name": "Marie Dupont",
+      "email": "marie.dupont@example",
+      "locale": "fr-BE",
+      "opt_in": true
+    },
+    {
+      "id": "c_002",
+      "name": "Tom Janssens",
+      "email": "tom.j@example",
+      "locale": "nl-BE",
+      "opt_in": true
+    },
+    {
+      "id": "c_003",
+      "name": "Sofia Rossi",
+      "email": "sofia.rossi@example",
+      "locale": "en-GB",
+      "opt_in": false
+    },
+    {
+      "id": "c_004",
+      "name": "Lukas Peeters",
+      "email": "lukas.peeters@example",
+      "locale": "nl-BE",
+      "opt_in": true
+    },
+    {
+      "id": "c_005",
+      "name": null,
+      "email": "guest5821@example",
+      "locale": null,
+      "opt_in": false
+    },
+    {
+      "id": "c_006",
+      "name": "Chloe Martin",
+      "email": "chloe.martin@example",
+      "locale": "fr-BE",
+      "opt_in": true
+    },
+    {
+      "id": "c_007",
+      "name": "David Okafor",
+      "email": "david.okafor@example",
+      "locale": "en-GB",
+      "opt_in": false
+    },
+    {
+      "id": "c_008",
+      "name": "Elena Bruno",
+      "email": "elena.bruno@example",
+      "locale": "en-GB",
+      "opt_in": true
+    },
+    {
+      "id": "c_009",
+      "name": "Pieter De Smet",
+      "email": "pieter.desmet@example",
+      "locale": "nl-BE",
+      "opt_in": true
+    },
+    {
+      "id": "c_010",
+      "name": "Amira Haddad",
+      "email": "amira.haddad@example",
+      "locale": "fr-BE",
+      "opt_in": false
+    }
+  ],
+  "events": [
+    {
+      "id": "ev_01",
+      "title": "Truffle Week",
+      "starts_at": "2026-07-06",
+      "ends_at": "2026-07-13",
+      "status": "upcoming",
+      "description": "Seven days of fresh Umbrian black truffle specials.",
+      "image_url": "https://placehold.co/800x500/7A1F1F/E8D9B5?text=Truffle+Week"
+    },
+    {
+      "id": "ev_02",
+      "title": "Live Jazz Sundays",
+      "starts_at": "2026-07-05",
+      "ends_at": null,
+      "status": "upcoming",
+      "recurring": "weekly",
+      "description": "A trio plays every Sunday lunch through summer.",
+      "image_url": "https://placehold.co/800x500/2F5233/E8D9B5?text=Jazz+Sundays"
+    },
+    {
+      "id": "ev_03",
+      "title": "Ferragosto closing",
+      "starts_at": "2026-08-15",
+      "ends_at": "2026-08-22",
+      "status": "upcoming",
+      "description": "Closed for the annual summer break.",
+      "image_url": null
+    },
+    {
+      "id": "ev_04",
+      "title": "25th Anniversary Dinner",
+      "starts_at": "2023-09-20",
+      "ends_at": "2023-09-20",
+      "status": "past",
+      "description": "A one-off tasting menu marking 25 years.",
+      "image_url": "https://placehold.co/800x500/7A1F1F/E8D9B5?text=Anniversary"
+    },
+    {
+      "id": "ev_05",
+      "title": "Spring Wine Pairing",
+      "starts_at": "2026-03-14",
+      "ends_at": "2026-03-14",
+      "status": "past",
+      "description": null,
+      "image_url": "https://placehold.co/800x500/2F5233/E8D9B5?text=Wine+Pairing"
+    },
+    {
+      "id": "ev_06",
+      "title": "Pasta-making class",
+      "starts_at": "2025-11-02",
+      "ends_at": "2025-11-02",
+      "status": "past",
+      "description": "Hands-on workshop with Matteo.",
+      "image_url": null
+    }
+  ]
+}
